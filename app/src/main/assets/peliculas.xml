@@ -1,0 +1,43 @@
+<catalogo>
+    <pelicula>
+        <titulo>El Padrino</titulo>
+        <director>Francis Ford Coppola</director>
+        <genero>Drama</genero>
+        <anio>1972</anio>
+        <calificacion>9.2</calificacion>
+        <duración>175</duración>
+    </pelicula>
+
+    <pelicula>
+        <titulo>Origen</titulo>
+        <director>Christopher Nolan</director>
+        <genero>Ciencia ficción</genero>
+        <anio>2010</anio>
+        <calificacion>8.8</calificacion>
+        <duración>148</duración>
+    </pelicula>
+    <pelicula>
+        <titulo>Interstellar</titulo>
+        <director>Christopher Nolan</director>
+        <genero>Ciencia ficción</genero>
+        <anio>2011</anio>
+        <calificacion>10</calificacion>
+        <duración>160</duración>
+    </pelicula>
+    <pelicula>
+        <titulo>Star Wars</titulo>
+        <director>GeorgeLucas</director>
+        <genero>Ciencia ficción</genero>
+        <anio>1975</anio>
+        <calificacion>9</calificacion>
+        <duración>120</duración>
+    </pelicula>
+    <pelicula>
+        <titulo>Star Wars: Imperio Contraataca</titulo>
+        <director>GeorgeLucas</director>
+        <genero>Ciencia ficción</genero>
+        <anio>1975</anio>
+        <calificacion>9</calificacion>
+        <duración>120</duración>
+    </pelicula>
+</catalogo>
