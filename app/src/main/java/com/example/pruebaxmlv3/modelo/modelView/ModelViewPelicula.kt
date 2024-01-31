@@ -25,4 +25,8 @@ class ModelViewPelicula(application: Application) : AndroidViewModel(application
     fun procesarFicheroSAX(): MutableList<Pelicula> {
         return daoSimpleXml.procesarArchivoXMLSAX()
     }
+
+    fun procesarFicheroSAXPorCriterio(criterio: String): MutableList<Pelicula> {
+        return daoSimpleXml.procesarArchivoXMLSAXPorCriterio(criterio)
+    }
 }

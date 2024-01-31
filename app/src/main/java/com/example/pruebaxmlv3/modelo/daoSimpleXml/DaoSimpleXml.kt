@@ -76,6 +76,21 @@ class DaoSimpleXml(var context: Context) : InterfaceDaoPelicula {
     }
 
 
+    override fun procesarArchivoXMLSAXPorCriterio(criterio: String): MutableList<Pelicula> {
+        try {
+            val factory = SAXParserFactory.newInstance()
+            val parser = factory.newSAXParser()
+            val handler = PeliculasXmlHandler()
+            val inputStream = context.assets.open(nombreFichero)
+            parser.parse(inputStream, handler)
+            listaPeliculas =
+                handler.peliculas.filter { it.director == criterio } as MutableList<Pelicula>
+        } catch (e: java.lang.Exception) {
+            Log.d("ErrorProcesarSAX", e.message.toString())
+        }
+        return listaPeliculas
+    }
+
     override fun copiarArchivo() {
         TODO("Not yet implemented")
     }

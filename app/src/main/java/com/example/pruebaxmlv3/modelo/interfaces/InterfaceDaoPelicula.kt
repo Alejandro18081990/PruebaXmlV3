@@ -10,6 +10,8 @@ interface InterfaceDaoPelicula {
 
     fun procesarArchivoXMLSAX(): MutableList<Pelicula>
 
+    fun procesarArchivoXMLSAXPorCriterio(critero: String): MutableList<Pelicula>
+
     fun procesarFicheroXmlInterno(): MutableList<Pelicula>
 
     fun copiarArchivo()

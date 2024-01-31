@@ -24,6 +24,16 @@
         <calificacion>10</calificacion>
         <duración>160</duración>
     </pelicula>
+
+    <pelicula>
+        <titulo>Memento</titulo>
+        <director>Christopher Nolan</director>
+        <genero>Ciencia ficción</genero>
+        <anio>2009</anio>
+        <calificacion>10</calificacion>
+        <duración>160</duración>
+    </pelicula>
+
     <pelicula>
         <titulo>Star Wars</titulo>
         <director>GeorgeLucas</director>

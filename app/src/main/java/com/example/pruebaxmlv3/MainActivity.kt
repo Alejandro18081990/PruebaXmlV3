@@ -44,8 +44,8 @@ class MainActivity : AppCompatActivity() {
         for (pelicula in listaPeliculas)
             Log.d("VerPeliculasSimple", String.format("-%s", pelicula))
 
-        //Lectura de fichero Xml usando SAX
-        listaPeliculas = modelViewPelicula.procesarFicheroSAX()
+        //Lectura de fichero por criterio determinado usando SAX
+        listaPeliculas = modelViewPelicula.procesarFicheroSAXPorCriterio("GeorgeLucas")
         Log.d("Longitud", listaPeliculas.size.toString())
         for (pelicula in listaPeliculas)
             Log.d("VerPeliculasSAX", String.format("-%s", pelicula))
