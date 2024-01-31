@@ -10,6 +10,7 @@ import com.example.pruebaxmlv3.modelo.modelView.ModelViewPelicula
 class MainActivity : AppCompatActivity() {
     lateinit var modelViewPelicula: ModelViewPelicula
     lateinit var listaPeliculas: MutableList<Pelicula>
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
